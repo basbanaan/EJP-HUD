@@ -23,4 +23,8 @@ EJP-HUD is actively supported by b4stian. Credit also goes to the following peop
 
 **Cold Balls and Hergan** for making modification which really improved the HUD.
 
+**Anakin** for helping me out a ton with the fonts.
+
+**Jonny and Vabe** well... for being who you are.
+
 
