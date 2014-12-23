@@ -10,6 +10,10 @@ EJP-HUD is a custom HUD for Team Fortress 2 with a futuristic style and various 
 * Support for 16x9, 4x3 and 16x10
 * Support for both Windows and OSX
 
+##To-do##
+* Add full support for MvM
+* Work out the design of various elements a bit better
+
 ##Installation##
 Extract the *EJP-HUD master* folder to *..\Steam\steamapps\common\Team Fortress 2\tf\custom* and you should be good to go! 
 Also take a look at the [HUD Installation Guide](http://huds.tf/guides/?guide=1/) on huds.tf. It runs through all the basics of installing any HUD, both on Windows, Mac and Linux.
