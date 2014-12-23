@@ -27,7 +27,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"32 32 32 255"	
+		"bgcolor_override"	"32 32 32 200"	
 	}
 	
 	"MoneyImagePanel"
@@ -50,7 +50,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyGood"
-		"font"			"abeat12"
+		"font"			"NeouB14"
 		"fgcolor"		"BasGreenSolid"
 		"ypos"			"0"
 		"zpos"			"4"
@@ -66,7 +66,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyBad"
-		"font"			"abeat12"
+		"font"			"NeouB14"
 		"fgcolor"		"BasRedSolid"
 		"xpos"			"0"
 		"ypos"			"0"

@@ -1451,7 +1451,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-133"
-		"ypos"				    "200"
+		"ypos"				    "150"
 		"wide"					"266"
 		"tall"					"120"
 	}
@@ -1571,7 +1571,7 @@
 		"fieldName" 	"HudMenuSpyDisguise"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-202"
+		"xpos"			"c-235"
 		"ypos"			"c-65"
 		"wide"			"450"
 		"tall"			"200"

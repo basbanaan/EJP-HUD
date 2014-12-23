@@ -19,7 +19,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PopFileLabel"
-		"font"			"Abeat10"
+		"font"			"NeouB12"
 		"labelText"		"%popfile%"
 		"textAlignment"	"west"
 		"xpos"			"c-260"
@@ -61,7 +61,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyValue"
-			"font"			"Abeat10"
+			"font"			"NeouB12"
 			"labelText"		"%difficultyvalue%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -247,7 +247,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecStatusLabel"
-			"font"			"Abeat10"
+			"font"			"NeouB12"
 			"labelText"		"%respecstatus%"
 			"textAlignment" "east"
 			"xpos"			"0"

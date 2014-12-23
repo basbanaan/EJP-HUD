@@ -193,7 +193,7 @@
 		"fgcolor"       "black"
 		"xpos"			"0"
 		"ypos"			"53"
-		"zpos"			"9"
+		"zpos"			"12"
 		"wide"			"292"
 		"tall"			"24"
 		"autoResize"		"0"

@@ -113,7 +113,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 255"
+		"fillcolor"		"32 32 32 245"
 		"scaleImage"		"1"
 	}		
 	
