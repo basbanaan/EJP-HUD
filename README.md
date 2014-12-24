@@ -5,6 +5,7 @@ EJP-HUD is a custom HUD for Team Fortress 2 with a futuristic style and various 
 
 ##Features##
 * Custom crosshairs
+* Close captions
 * Options for customization
 * Toggleable scoreboard
 * Support for 16x9, 4x3 and 16x10
