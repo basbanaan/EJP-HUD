@@ -8264,7 +8264,6 @@ Scheme
 			"font"	"resource/fonts/Crosshair.ttf"
 			"name"	"Crosshair"
 		}
-		}
 		"20" 
 		{
 			"font"	"resource/fonts/EJPCrosshairs.ttf"
