@@ -1,7 +1,7 @@
 EJP-HUD
 =======
 
-EJP-HUD is a custom HUD for Team Fortress 2 with a futuristic style and various features. It focusses mostly on combining a great gameplay-experience with looks. It was designed by Ejp in a deep autumn of 2012, Eric started coding some basic elements and i took over the coding in september of 2014.  
+EJP-HUD is a custom HUD for Team Fortress 2 with a futuristic style and various features. It focusses mostly on combining a great gameplay-experience with looks, both for competitive and public use. It was designed by Ejp in a deep autumn of 2012, Eric started coding some basic elements and i took over the coding in september of 2014.  
 
 ##Features##
 * Custom crosshairs
