@@ -337,7 +337,7 @@
 			"fieldName"		"ScreenshotLabel"
 			"font"			"abeat8"
 			"xpos"			"40"
-			"ypos"			"25"
+			"ypos"			"17"
 			"zpos"			"2"
 			"wide"			"133"
 			"tall"			"12"
