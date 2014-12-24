@@ -29,8 +29,8 @@
 		"xpos"			"0"
 		"ypos"			"15"
 		"zpos"			"1"
-		"wide"			"72"
-		"tall"			"72"
+		"wide"			"66"
+		"tall"			"66"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
@@ -80,7 +80,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"StatLabelLarge"
-		"font"			"NeouB18"
+		"font"			"NeouB16"
 		"xpos"			"80"
 		"ypos"			"60"
 		"zpos"			"3"
@@ -100,7 +100,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"StatLabelSmall"
-		"font"			"NeouB14"
+		"font"			"NeouB12"
 		"xpos"			"80"
 		"ypos"			"60"
 		"zpos"			"3"
