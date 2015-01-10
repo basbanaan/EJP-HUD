@@ -16,7 +16,7 @@
 	//
 	// To change a color, change the 'fgcolor' value to your desired RGB color 
 	// value, White being '255 255 255 255" and Black "0 0 0 255".
-	/////////////////////////////////////////////////////////////////////////////	
+	/////////////////////////////////////////////////////////////////////////////
 	
 	SlyCrosshair
 	{
@@ -1052,12 +1052,12 @@
 
 		"MaxDeathNotices" "6"
 		"IconScale"	  "0.10"
-		"LineHeight"	  "15"
+		"LineHeight"	  "13"
 		"LineSpacing"	  "2"
 		"CornerRadius"	  "1"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"NeouB12"
+		"TextFont"		"Gotham-Medium11"
 		
 		"TeamBlue"		"eBlue" 	// HUDBlueTeamSolid
 		"TeamRed"		"eRed" 	// HUDRedTeamSolid
@@ -1067,7 +1067,7 @@
 		"BaseBackgroundColor"	"48 59 63 160"
 		"LocalBackgroundColor"	"eWhite"
 	}
-
+	
 	HudVehicle
 	{
 		"fieldName" "HudVehicle"
@@ -1171,6 +1171,7 @@
 		"ItemFadeOutTime"	"0.3"
 		"topoffset"		"1"
 	}
+
 
 
 	HudHistoryResource 

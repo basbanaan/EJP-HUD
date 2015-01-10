@@ -518,7 +518,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Gotham-Medium"
 				"tall"		"12"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -526,7 +526,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Gotham-Medium"
 				"tall"		"13"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"900"
@@ -535,7 +535,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Gotham-Medium"
 				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -544,7 +544,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Gotham-Medium"
 				"tall"		"20"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -553,7 +553,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Gotham-Medium"
 				"tall"		"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -562,14 +562,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Verdana"
+				"name"		"Gotham-Medium"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		"Arial"
+				"name"		"Gotham-Medium"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -581,7 +581,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Gotham-Medium"
 				"tall"		"12"
 				"weight"	"500"
 				"underline" "1"
@@ -589,7 +589,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Arial"
+				"name"		"Gotham-Medium"
 				"tall"		"11"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -599,7 +599,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Gotham-Medium"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -607,7 +607,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Gotham-Medium"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -615,7 +615,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Gotham-Medium"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -624,7 +624,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Gotham-Medium"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -633,7 +633,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Gotham-Medium"
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -642,7 +642,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Arial"
+				"name"		"Gotham-Medium"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
@@ -654,7 +654,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Gotham-Medium"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -662,7 +662,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Gotham-Medium"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -670,7 +670,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Gotham-Medium"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -679,7 +679,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Gotham-Medium"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -688,7 +688,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Gotham-Medium"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -700,7 +700,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"abeatbyKai"
+				"name"		"Gotham-Medium"
 				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -708,7 +708,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"abeatbyKai"
+				"name"		"Gotham-Medium"
 				"tall"		"21"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -716,7 +716,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"abeatbyKai"
+				"name"		"Gotham-Medium"
 				"tall"		"22"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -725,7 +725,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"abeatbyKai"
+				"name"		"Gotham-Medium"
 				"tall"		"28"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -734,7 +734,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"abeatbyKai"
+				"name"		"Gotham-Medium"
 				"tall"		"30"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -743,14 +743,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"abeatbyKai"
+				"name"		"Gotham-Medium"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		"abeatbyKai"
+				"name"		"Gotham-Medium"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -3942,6 +3942,103 @@ Scheme
 			"tall" 			"80"
 			"weight" 		"900"
 			"antialias" 	"1"
+			}
+		}
+		
+		Gotham-Medium8
+		{
+			"1"
+			{
+				"name"		"Gotham-Medium"
+				"tall"		"8"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		
+		Gotham-Medium9
+		{
+			"1"
+			{
+				"name"		"Gotham-Medium"
+				"tall"		"9"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		
+		Gotham-Medium10
+		{
+			"1"
+			{
+				"name"		"Gotham-Medium"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		
+		Gotham-Medium11
+		{
+			"1"
+			{
+				"name"		"Gotham-Medium"
+				"tall"		"11"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		
+		Gotham-Medium12
+		{
+			"1"
+			{
+				"name"		"Gotham-Medium"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		
+		Gotham-Medium12shadow
+		{
+			"1"
+			{
+				"name"		"Gotham-Medium"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+				"dropshadow"	"1"
+			}
+		}
+		
+		Gotham-Medium13
+		{
+			"1"
+			{
+				"name"		"Gotham-Medium"
+				"tall"		"13"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		
+		Gotham-Medium14
+		{
+			"1"
+			{
+				"name"		"Gotham-Medium"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
 			}
 		}
 		
@@ -8288,6 +8385,11 @@ Scheme
 		{
 			"font" "resource/fonts/Paula.ttf"
 			"name" "Paula"
+		}
+		"25"
+		{
+			"font" "resource/fonts/Gotham-Medium.otf"
+			"name" "Gotham-Medium"
 		}
 	}
 }
