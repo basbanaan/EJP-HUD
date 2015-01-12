@@ -11,8 +11,8 @@
 		"tall"			"150"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/death_panel_blue_bg"
 		"scaleImage"		"1"
 		"teambg_2"		"../hud/death_panel_red_bg"
@@ -22,14 +22,12 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"AlertLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"Gotham-Medium14"
+		"fgcolor_override" "BasWhite"
 		"xpos"			"80"
 		"ypos"			"70"
-		//"ypos_hidef"	"23"
-		//"ypos_lodef"	"20"
 		"zpos"			"1"
-		"wide"			"230"	[$WIN32]
-		"wide"			"180"	[$X360]
+		"wide"			"230"	
 		"tall"			"55"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -37,7 +35,7 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		""
-		"textAlignment"		"North"
+		"textAlignment"		"center"
 	}
 	"AlertImage"
 	{
@@ -50,8 +48,8 @@
 		"tall"			"50"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/ico_teambalance"
 		"scaleImage"		"1"
 	}
