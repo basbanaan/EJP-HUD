@@ -18,13 +18,27 @@
 		"fieldName"		"MainBackground"
 		"xpos"			"0"
 		"ypos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			""
+		"scaleImage"		"1"
+	}	
+	
+	"LoadingBackground"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"LoadingBackground"
+		"xpos"			"0"
+		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			""
-		"scaleImage"		"1"
-	}	
+		"image"			"stamp_background_map"
+		"scaleImage"	"1"
+	}
 
 	"MapInfo"
 	{
@@ -44,7 +58,7 @@
 			"fieldName"		"Background"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"640"
+			"wide"			"f0"
 			"tall"			"480"
 			"visible"		"1"
 			"enabled"		"1"
@@ -63,7 +77,7 @@
 			"tall"			"300"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			""
+			"image"			"stamp_background_map"
 			"scaleImage"	"1"		
 		}
 	
@@ -128,7 +142,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"NoBorder"
-			"bgcolor_override"		"15 15 15 150"
+			"bgcolor_override"		"15 15 15 200"
 		}
 
 		"Title"
@@ -245,7 +259,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"	"StatData"
 		"xpos"		"0"
-		"ypos"		"0"
+		"ypos"		"-75"
 		"zpos"		"1"
 		"wide"		"f0"
 		"tall"		"480"
@@ -419,7 +433,7 @@
 			"wide"			"600"
 			"wide_hidef"	"566"
 			"wide_lodef"	"566"
-			"tall"			"300"
+			"tall"			"250"
 			"tall_hidef"			"633"
 			"tall_lodef"			"633"
 			"autoResize"	"0"
@@ -427,7 +441,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"NoBorder"
-			"bgcolor_override"		"15 15 15 150"
+			"bgcolor_override"		"15 15 15 200"
 		}
 		"AveragesLabel"
 		{
@@ -2625,12 +2639,12 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TipImage"
 		"xpos"			"c-285"
-		"ypos"			"412"
+		"ypos"			"512"
 		"zpos"			"12"
 		"wide"			"35"
 		"tall"			"35"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
@@ -2647,7 +2661,7 @@
 		"xpos"			"c-245"
 		"xpos_lodef"			"c-180"
 		"xpos_hidef"			"c-180"
-		"ypos"			"405"
+		"ypos"			"505"
 		"ypos_hidef"			"362"
 		"ypos_lodef"			"362"
 		"zpos"			"12"
@@ -2659,8 +2673,8 @@
 		"tall_lodef"	"60"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"wrap"			"1"
 	}
 	"NextTipButton" [$WIN32]
@@ -2674,8 +2688,8 @@
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"#TF_NextTip"
 		"textAlignment"	"center"
@@ -2694,8 +2708,8 @@
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"#TF_ResetStats"
 		"textAlignment"	"center"
