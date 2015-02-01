@@ -10,7 +10,8 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		"border"		"FuckinBorderDude"
+		"bgcolor_override" "32 32 32 255"
 				
 		"PassedIcon"
 		{
@@ -42,7 +43,7 @@
 			"brighttext"	"0"
 			"font"			"ScoreboardSmall"
 			"wrap"			"1"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"BasWhite"
 		}
 		
 		"PassedResult"
@@ -61,7 +62,7 @@
 			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
 			"wrap"			"1"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"BasWhite"
 			"noshortcutsyntax" "1"
 		}		
 	}
@@ -76,7 +77,8 @@
 		"tall"			"144"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		"border"		"FuckinBorderDude"
+		"bgcolor_override" "32 32 32 255"
 		
 		"Header"
 		{
@@ -112,7 +114,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"ScoreboardSmall"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"BasWhite"
 			"wrap"			"1"
 			"noshortcutsyntax" "1"
 		}
@@ -128,6 +130,8 @@
 			"tall"			"1"
 			"fillcolor"		"128 128 128 255"
 			"zpos"			"0"
+			"visible"       "0"
+			"enabled"       "0"
 		}
 		
 		// Temp UI
@@ -148,7 +152,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"BasWhite"
 		}
 		
 		"Option1Background_Selected"
@@ -160,7 +164,7 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
+			"fillcolor"		"BasBlueSolidTr"
 			"visible"		"1"
 		}
 		
@@ -180,7 +184,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"ScoreboardSmall"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"BasWhite"
 		}
 		
 		"LabelOption2"
@@ -199,7 +203,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"BasWhite"
 		}
 		
 		"Option2Background_Selected"
@@ -211,7 +215,7 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
+			"fillcolor"		"BasBlueSolidTr"
 			"visible"		"1"
 		}
 		
@@ -231,7 +235,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"ScoreboardSmall"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"BasWhite"
 		}
 		
 		"LabelOption3"
@@ -250,7 +254,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"BasWhite"
 		}
 		
 		"Option3Background_Selected"
@@ -262,7 +266,7 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
+			"fillcolor"		"BasBlueSolidTr"
 			"visible"		"0"
 		}
 		
@@ -282,7 +286,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"BasWhite"
 		}
 		
 		"Option4Background_Selected"
@@ -294,7 +298,7 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
+			"fillcolor"		"BasBlueSolidTr"
 			"visible"		"0"
 		}
 		
@@ -314,7 +318,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"BasWhite"
 		}
 		
 		"Option5Background_Selected"
@@ -326,7 +330,7 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
+			"fillcolor"		"BasBlueSolidTr"
 			"visible"		"0"
 		}
 		
@@ -341,6 +345,8 @@
 			"tall"			"1"
 			"fillcolor"		"128 128 128 255"
 			"zpos"			"0"
+			"visible"       "0"
+			"enabled"       "0"
 		}
 		
 		"VoteCountLabel"
@@ -392,7 +398,8 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		"border"		"FuckinBorderDude"
+		"bgcolor_override" "32 32 32 255"
 				
 		"FailedIcon"
 		{
@@ -443,7 +450,7 @@
 			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
 			"wrap"			"1"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"BasWhite"
 		}		
 	}
 	
@@ -458,7 +465,8 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		"border"		"FuckinBorderDude"
+		"bgcolor_override" "32 32 32 255"
 				
 		"FailedIcon"
 		{
@@ -509,7 +517,7 @@
 			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
 			"wrap"			"1"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"BasWhite"
 		}		
 	}
 	
@@ -527,17 +535,17 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
-		"border"			"TFFatLineBorderOpaque"
-		"bgcolor_override"	"0 0 0 0"
-		"PaintBackground"	"0"
+		"border"			"FuckinBorderDude"
+		"bgcolor_override" "32 32 32 255"
+		"PaintBackground"	"2"
 
-		"header_font"		"ItemFontNameLarge"
-		"header_fgcolor"	"Orange"
+		"header_font"		"NeouB12"
+		"header_fgcolor"	"BasWhite"
 
 		"issue_width"		"180"		
-		"issue_font"		"ItemFontNameSmall"
-		"issue_fgcolor"		"TanLight"
-		"issue_fgcolor_disabled"	"TanDark"
+		"issue_font"		"NeouB10"
+		"issue_fgcolor"		"BasWhite"
+		"issue_fgcolor_disabled"	"BasWhite"
 		
 		"parameter_width"	"200"
 
@@ -619,7 +627,7 @@
 			"xpos"				"85"
 			"ypos"				"245"
 			"zpos"				"1"
-			"wide"				"205"
+			"wide"				"235"
 			"tall"				"20"
 			"autoResize"		"0"
 			"pinCorner"			"0"
@@ -645,16 +653,16 @@
 		{
 			"ControlName"		"Button"
 			"fieldName"		"CallVoteButton"
-			"xpos"		"85"
+			"xpos"		"75"
 			"ypos"		"275"
-			"wide"		"100"
+			"wide"		"160"
 			"tall"		"24"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"0"
 			"tabPosition"	"4"
-			"labelText"		"Call Vote"
+			"labelText"		"#TF_call_vote"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -666,9 +674,9 @@
 		{
 			"ControlName"		"Button"
 			"fieldName"		"Button1"
-			"xpos"		"190"
+			"xpos"		"240"
 			"ypos"		"275"
-			"wide"		"100"
+			"wide"		"80"
 			"tall"		"24"
 			"autoResize"	"0"
 			"pinCorner"		"3"

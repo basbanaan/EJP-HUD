@@ -34,9 +34,11 @@ Scheme
 
 		
 		"BasWhite"			"220 220 220 255"
+		"BasWhiteTr"		"220 220 220 200"
 		"BasBlue"			"70 130 180 125"
 		"BasRed"			"205 50 50 153"
 		"BasBlueSolid"		"0 200 225 255"
+		"BasBlueSolidTr"	"0 200 225 200"
 		"BasRedSolid"		"205 50 50 255"
 		"BasDark"			"32 32 32 255"
 		"BasGreenSolid"  	"90 180 0 255"
@@ -6422,6 +6424,126 @@ Scheme
 				{
 					"color" "Blank"
 					"offset" "0 0"
+				}
+			}
+		}
+		
+		EjpBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "30 30 30 210"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "30 30 30 210"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "30 30 30 210"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "30 30 30 210"
+					"offset" "0 0"
+				}
+			}
+		}
+		
+		EjpBorder2
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 200 225 255"
+					"offset" "1 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "0 200 225 255"
+					"offset" "1 1"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "0 200 225 255"
+					"offset" "1 1"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "0 200 225 255"
+					"offset" "1 1"
+				}
+			}
+		}
+		
+		EjpBorder3
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "205 51 51 255"
+					"offset" "1 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "205 51 51 255"
+					"offset" "1 1"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "205 51 51 255"
+					"offset" "1 1"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "205 51 51 255"
+					"offset" "1 1"
 				}
 			}
 		}
