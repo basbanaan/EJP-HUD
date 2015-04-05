@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"46 43 42 0"
-		"infocus_bgcolor_override"		"46 43 42 0"
-		"outoffocus_bgcolor_override"	"46 43 42 0"
+		"bgcolor_override"	"32 32 32 255"
+		"infocus_bgcolor_override" "32 32 32 255"
+		"outoffocus_bgcolor_override" "32 32 32 255"
 		
 		"title"			"#StoreTitle"
 		"title_font"	"HudFontMediumBold"
@@ -25,7 +25,7 @@
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"				"200 187 161 255"
 		"titlebardisabledfgcolor_override"		"200 187 161 255"
-		"titlebarbgcolor_override"				"46 43 42 255"
+		"titlebarbgcolor_override"				"32 32 32 255"
 		
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
@@ -135,22 +135,14 @@
 		
 		"tabskv"
 		{
-			"textinsetx"		"40"
-			"font"				"NeouB28"
-			"defaultBgColor_override"	"60 60 60 255"
+			"textinsetx"		"15"
+			"font"				"NeouB22"
 			"selectedcolor"		"BasBlueSolid"
 			"unselectedcolor"	"90 90 90 255"	
-			"paintbackground"	"1"
-			"activeborder_override"	"FuckinBorderDude"
-			"normalborder_override" "FuckinBorderDude"
-			
-			"fgcolor"	"BasWhite"
-			"defaultBgColor_override" "32 32 32 255"
-			"defaultFgColor_override" "120 120 120 255"
-			"armedBgColor_override" "32 32 32 255"
-			"armedFgColor_override" "120 120 120"
-			"selectedBgColor_override" "BasDark"
-			"selectedFgColor_override"	"BasBlueSolid"
+			"defaultBgColor_override"	"32 32 32 255"
+			"paintbackground"	"0"
+			"activeborder_override"	""
+			"normalborder_override" ""
 		}
 	}
 	

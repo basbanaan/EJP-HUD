@@ -6548,6 +6548,66 @@ Scheme
 			}
 		}
 		
+		TBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "255 255 255 255"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "166 166 166 0"
+					"offset" "2 2"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "255 255 255 255"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "166 166 166 0"
+					"offset" "1 1"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "255 255 255 255"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "166 166 166 0"
+					"offset" "1 2"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "255 255 255 255"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "166 166 166 0"
+					"offset" "1 2"
+				}
+			}
+		}
+		
 		TeamMenuBorder
 		{
 			"inset" "0 0 0 0"

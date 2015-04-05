@@ -911,14 +911,16 @@
 		"fieldName" "HudKothTimeStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-95"
+		"xpos"	"c-100"
 		"ypos"	"0"
-		"wide"	"190"
-		"tall"	"f0"
+		"wide"	"200"
+		"tall"	"480"
 		
-		"blue_active_xpos"			"16"
+		//"blue_active_xpos"			"36"
+		"blue_active_xpos"			"32"
 	
-		"red_active_xpos"			"106"
+		//"red_active_xpos"			"118"
+		"red_active_xpos"			"122"
 	}	
 	
 
@@ -1157,8 +1159,8 @@
 		"fieldName" "HudCloseCaption"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c-170"
-		"ypos"		"r180"
+		"xpos"		"c-246"
+		"ypos"		"r150"
 		"zpos"		"0"
 		"wide"		"200"
 		"tall"		"60"
@@ -1171,6 +1173,7 @@
 		"ItemFadeOutTime"	"0.3"
 		"topoffset"		"1"
 	}
+
 
 
 	HudHistoryResource 
