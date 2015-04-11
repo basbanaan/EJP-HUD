@@ -17,7 +17,7 @@ EJP-HUD is a custom HUD for Team Fortress 2 with a futuristic style and various 
 
 ##Installation##
 Extract the *EJP-HUD master* folder to *..\Steam\steamapps\common\Team Fortress 2\tf\custom* and you should be good to go! 
-Also take a look at the [HUD Installation Guide](http://huds.tf/guides/?guide=1/) on huds.tf. It runs through all the basics of installing any HUD, both on Windows, Mac and Linux.
+Also take a look at the [HUD Installation Guide](http://huds.tf/guides/?guide=1) on huds.tf. It runs through all the basics of installing any HUD, both on Windows, Mac and Linux.
 
 ##Credits##
 EJP-HUD is actively supported by b4stian. Credit also goes to the following people for their help and support of the HUD's development.
