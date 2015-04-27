@@ -349,7 +349,7 @@
 		}
 		if_christmas
 		{
-			"image"		"../console/background_xmas2011"
+			"image"		"../console/background_upward"
 		}
 	}
 	
