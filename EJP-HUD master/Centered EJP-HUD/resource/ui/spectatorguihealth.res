@@ -91,7 +91,7 @@
 	}
 	"TargetStatusHealthValue"
 	{
-		"ControlName"	"Label"
+		"ControlName"	"CExLabel"
 		"fieldName"		"TargetStatusHealthValue"
 		"xpos"			"0"
 		"ypos"			"1"
@@ -110,8 +110,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusPlayerLevel"
 		"xpos"			"8"
-		"ypos"			"9"	[$WIN32]
-		"ypos"			"0"	[$X360]
+		"ypos"			"9"	
 		"zpos"			"5"
 		"wide"			"16"
 		"tall"			"12"

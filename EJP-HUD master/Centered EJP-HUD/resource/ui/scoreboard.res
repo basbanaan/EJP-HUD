@@ -13,13 +13,16 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
+		"medal_width"		"0"
 		"avatar_width"		"55"	 
 		"name_width"		"50"	 
 		"status_width"		"15"	 
 		"nemesis_width"		"15"	 
 		"class_width"		"15"	 
 		"score_width"		"30"
-		"ping_width"		"23"	 
+		"ping_width"		"23"	
+		"stats_width"		"30"
+		"killstreak_width"	"20" 
 	}
 	"BlueScoreBG"
 	{
@@ -393,6 +396,7 @@
 		"autoresize"	"3"
 		"linespacing"	"20"
 		"fgcolor_override"		"eBlue"
+		//"show_columns"	"1"
 		
 		if_mvm
 		{
@@ -437,6 +441,7 @@
 		"autoresize"	"3"
 		"linespacing"	"20"
 		"textcolor"		"red"
+		//"show_columns"	"1"
 		
  		if_mvm
  		{
@@ -1011,10 +1016,10 @@
 			"visible"		"1"
 		}
 
-		"KillsLabel"
+		"KillsLabel2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"KillsLabel"
+			"fieldName"		"KillsLabel2"
 			"font"			"NeouB16"
 			"labelText"		"KILLS"
 			"textAlignment"		"south-west"
@@ -1117,10 +1122,10 @@
 			"visible"		"0"
 			"enabled"		"0"	
 		}												
-		"Kills"
+		"KillsText"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Kills"
+			"fieldName"		"KillsText"
 			"font"			"NeouB52"
 			"labelText"		"%kills%"
 			"textAlignment"		"center"
@@ -1140,10 +1145,10 @@
 			"visible"		"0"
 		}
 		}
-		"Deaths"
+		"DeathsText"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Deaths"
+			"fieldName"		"DeathsText"
 			"font"			"NeouB52"
 			"labelText"		"%deaths%"
 			"textAlignment"		"center"
@@ -1174,10 +1179,10 @@
 			"visible"			"0"
 			"enabled"			"0"
 		}							
-		"Assists"
+		"AssistsText"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Assists"
+			"fieldName"		"AssistsText"
 			"font"			"NeouB52"
 			"labelText"		"%assists%"
 			"textAlignment"		"center"
@@ -1209,10 +1214,10 @@
 			"visible"		"0"
 			"enabled"		"0"	
 		}						
-		"CapturesLabel"
+		"CapturesLabel2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"CapturesLabel"
+			"fieldName"		"CapturesLabel2"
 			"font"			"NeouB16"
 			"labelText"		"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"		"west"
@@ -1233,10 +1238,10 @@
 			"visible"		"0"
 		}
 		}						
-		"DefensesLabel"
+		"DefensesLabel2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"DefensesLabel"
+			"fieldName"		"DefensesLabel2"
 			"font"			"NeouB16"
 			"labelText"		"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"		"west"
@@ -1257,10 +1262,10 @@
 			"visible"		"0"
 		}
 		}						
-		"DominationLabel"
+		"DominationLabel2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"DominationLabel"
+			"fieldName"		"DominationLabel2"
 			"font"			"NeouB16"
 			"labelText"		"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"		"west"
@@ -1281,10 +1286,10 @@
 			"visible"		"0"
 		}
 		}						
-		"RevengeLabel"
+		"RevengeLabel2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"RevengeLabel"
+			"fieldName"		"RevengeLabel2"
 			"font"			"NeouB16"
 			"labelText"		"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"		"west"
@@ -1305,10 +1310,10 @@
 			"visible"		"0"
 		}
 		}						
-		"Captures"
+		"CapturesText"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Captures"
+			"fieldName"		"CapturesText"
 			"font"			"NeouB16"
 			"labelText"		"%captures%"
 			"textAlignment"		"west"
@@ -1329,10 +1334,10 @@
 			"visible"		"0"
 		}
 		}						
-		"Defenses"
+		"DefensesText"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Defenses"
+			"fieldName"		"DefensesText"
 			"font"			"NeouB16"
 			"labelText"		"%defenses%"
 			"textAlignment"		"west"
@@ -1353,10 +1358,10 @@
 			"visible"		"0"
 		}
 		}						
-		"Domination"
+		"DominationText"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Domination"
+			"fieldName"		"DominationText"
 			"font"			"NeouB16"
 			"labelText"		"%dominations%"
 			"textAlignment"		"west"
@@ -1377,10 +1382,10 @@
 			"visible"		"0"
 		}
 		}						
-		"Revenge"
+		"RevengeText"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Revenge"
+			"fieldName"		"RevengeText"
 			"font"			"NeouB16"
 			"labelText"		"%Revenge%"
 			"textAlignment"		"west"
@@ -1401,10 +1406,10 @@
 			"visible"		"0"
 		}
 		}						
-		"HealingLabel"
+		"HealingLabel2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"HealingLabel"
+			"fieldName"		"HealingLabel2"
 			"font"			"NeouB16"
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"west"
@@ -1425,10 +1430,10 @@
 			"visible"		"0"
 		}
 		}						
-		"InvulnLabel"
+		"InvulnLabel2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"InvulnLabel"
+			"fieldName"		"InvulnLabel2"
 			"font"			"NeouB16"
 			"labelText"		"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"		"west"
@@ -1462,10 +1467,10 @@
 			"enabled"		"0"	
 
 		}						
-		"HeadshotsLabel"
+		"HeadshotsLabel2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"HeadshotsLabel"
+			"fieldName"		"HeadshotsLabel2"
 			"font"			"NeouB16"
 			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"		"west"
@@ -1486,10 +1491,10 @@
 			"visible"		"0"
 		}
 		}						
-		"Healing"
+		"HealingText"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Healing"
+			"fieldName"		"HealingText"
 			"font"			"NeouB16"
 			"labelText"		"%healing%"
 			"textAlignment"		"west"
@@ -1510,10 +1515,10 @@
 			"visible"		"0"
 		}
 		}						
-		"Invuln"
+		"InvulnText"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Invuln"
+			"fieldName"		"InvulnText"
 			"font"			"NeouB16"
 			"labelText"		"%invulns%"
 			"textAlignment"		"west"
@@ -1547,10 +1552,10 @@
 			"enabled"		"0"	
 
 		}						
-		"Headshots"
+		"HeadshotsText"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Headshots"
+			"fieldName"		"HeadshotsText"
 			"font"			"NeouB16"
 			"labelText"		"%headshots%"
 			"textAlignment"		"west"
@@ -1571,10 +1576,10 @@
 			"visible"		"0"
 		}
 		}						
-		"BackstabsLabel"
+		"BackstabsLabel2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"BackstabsLabel"
+			"fieldName"		"BackstabsLabel2"
 			"font"			"NeouB16"
 			"labelText"		"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"		"west"
@@ -1595,10 +1600,10 @@
 			"visible"		"0"
 		}
 		}
-		"Backstabs"
+		"BackstabsText"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Backstabs"
+			"fieldName"		"BackstabsText"
 			"font"			"NeouB16"
 			"labelText"		"%backstabs%"
 			"textAlignment"		"west"
@@ -1619,10 +1624,10 @@
 			"visible"		"0"
 		}
 		}		
-		"BonusLabel"
+		"BonusLabel2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"BonusLabel"
+			"fieldName"		"BonusLabel2"
 			"font"			"NeouB16"
 			"labelText"		"#TF_ScoreBoard_BonusLabel"
 			"textAlignment"		"west"
@@ -1643,10 +1648,10 @@
 			"visible"		"0"
 		}
 		}
-		"Bonus"
+		"BonusText"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Bonus"
+			"fieldName"		"BonusText"
 			"font"			"NeouB16"
 			"labelText"		"%bonus%"
 			"textAlignment"		"west"
@@ -1692,10 +1697,10 @@
 			"visible"		"0"
 			"enabled"		"0"	
 		}
-		"DamageLabel"
+		"DamageLabel2"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"DamageLabel"
+			"fieldName"		"DamageLabel2"
 			"font"			"NeouB16"
 			"labelText"		"#TF_ScoreBoard_DamageLabel"
 			"textAlignment"		"west"
@@ -1716,10 +1721,10 @@
 			"visible"		"0"
 		}
 		}
-		"Damage"
+		"DamageText"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Damage"
+			"fieldName"		"DamageText"
 			"font"			"NeouB16"
 			"labelText"		"%damage%"
 			"textAlignment"		"west"

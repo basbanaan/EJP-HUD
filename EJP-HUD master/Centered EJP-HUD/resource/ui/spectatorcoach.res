@@ -334,28 +334,32 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"r220"
-		"ypos"			"c65"
-		"zpos"			"1"
-		"wide"			"215"
-		"tall"			"180"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"10"
+		"wide"			"190"
+		"tall"			"100"
 		"visible"		"0"
 		"bgcolor_override"		"32 32 32 255"
 		"PaintBackgroundType"	"0"
 		"paintbackground"	"1"
 		"paintborder"		"0"
 		
-		"model_xpos"		"3"
-		"model_center_y"	"1"
-		"model_wide"		"37"
-		"model_tall"		"23"
+		"model_ypos"		"10"
+		"model_center_x"	"1"
+		"model_wide"		"90"
+		"model_tall"		"60"
+		
+		"text_xpos"		"10"
+		"text_ypos"		"10"
+		"text_wide"		"170"
 		
 		"text_xpos"		"42"
 		"text_ypos"		"20"
 		"text_wide"		"170"
 		"text_center"	"1"
 		
-		"max_text_height"	"90"
+		"max_text_height"	"100"
 		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"1"
@@ -363,7 +367,7 @@
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "1"
+			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
 		}
 		

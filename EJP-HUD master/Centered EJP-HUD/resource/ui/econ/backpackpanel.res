@@ -103,7 +103,7 @@
 			"tall"			"42"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"BasWhite"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			
@@ -131,7 +131,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"New"
-				"font"			"NeouB8"
+				"font"			"FontStorePrice"
 				"textAlignment"	"east"
 				"xpos"			"rs1"
 				"zpos"			"15"
@@ -367,7 +367,8 @@
 		"selectionColor_override" "BasDark"
 		"selectionTextColor_override" "BasWhite"
 		"defaultSelectionBG2Color_override" "BasDark"
-	}	
+	}
+		
 	
 	"mouseoveritempanel"
 	{
@@ -381,11 +382,11 @@
 		"visible"		"0"
 		"bgcolor_override"		"BasDark"
 		"noitem_textcolor"		"110 110 110 255"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"border"				"FuckinBorderDude"
 		"border_override"		"FuckinBorderDude"
 		"paintborder"	"1"
-		"paintbackground"	"1"
+		"paintbackground"	"0"
 		
 		"text_ypos"			"10"
 		"text_center"		"1"
@@ -393,47 +394,9 @@
 		"resize_to_text"	"1"
 		"padding_height"	"6"
 		
-		"BackColor"
-    	{
-    		"ControlName"		"ImagePanel"
-    		"fieldName"			"BackColor"
-    		"xpos"				"0"
-    		"ypos"				"0"
-    		"zpos"				"0"
-    		"wide"				"6"
-    		"tall"	 			"f0"
-    		"visible"			"1"
-    		"enabled"			"1"
-			"pinCorner"		"0"
-			"autoResize"	"0"
-			"paintbackground"		"1"
-			"PaintBackgroundType"	"2"
-			"border"		"NoBorder"
-			"fillcolor"			"BasDark"
-    	}
-		
-		"BackColor2"
-    	{
-    		"ControlName"		"ImagePanel"
-    		"fieldName"			"BackColor2"
-    		"xpos"				"294"
-    		"ypos"				"0"
-    		"zpos"				"0"
-    		"wide"				"6"
-    		"tall"	 			"f0"
-    		"visible"			"1"
-    		"enabled"			"1"
-			"pinCorner"		"0"
-			"autoResize"	"0"
-			"paintbackground"		"1"
-			"PaintBackgroundType"	"2"
-			"border"		"NoBorder"
-			"fillcolor"			"BasDark"
-    	}
-		
 		"attriblabel"
 		{
-			"font"			"NeouB11"
+			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"2"
@@ -448,6 +411,24 @@
 			"fgcolor"		"110 110 110 255"
 			"bgcolor_override"	"0 0 0 0"
 			"centerwrap"	"1"
+		}
+		
+		"PackBackground"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"PackBackground"
+			"xpos"		"0"
+			"ypos"		"0"
+			"zpos"		"-1"
+			"wide"		"400"
+			"tall"		"400"
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"		"0"
+			"bgcolor_override"	"BasDark"
+			"proportionalToParent"	"1"
 		}
 	}
 	
