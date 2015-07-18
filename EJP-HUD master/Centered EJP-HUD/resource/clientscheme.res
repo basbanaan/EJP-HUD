@@ -1488,6 +1488,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		// this is the symbol font
 		"Marlett"
 		{

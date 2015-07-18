@@ -4239,14 +4239,17 @@
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}
+		}		
+	}
+			
 	"EventPromo"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"EventPromo"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"310"
+		"ypos"			"-240"
 		"zpos"			"-60"
-		"wide"			"f0"
+		"wide"			"320"
 		"tall"			"f0"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
@@ -4257,14 +4260,14 @@
 			"ControlName"			"ImagePanel"
 			"fieldName"				"EventImage"
 			"xpos"					"cs-0.5"
- 			"ypos"					"50"
- 			"zpos"					"-1"
- 			"wide"					"p0.9"
- 			"tall"					"o1"
-			"visible"				"1"
- 			"enabled"				"1"
- 			"image"					"menu_background_eotl_duck"
- 			"scaleImage"			"1"
+			"ypos"					"50"
+			"zpos"					"-1"
+			"wide"					"p0.9"
+			"tall"					"o1"
+			"visible"				"0"
+			"enabled"				"0"
+			"image"					"menu_background_eotl_duck"
+			"scaleImage"			"1"
 			"proportionaltoparent"	"1"
 		}	
 
@@ -4279,18 +4282,21 @@
 			"wide"			"p0.8"
 			"tall"			"120"
 			"visible"		"1"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"1"
 			"proportionaltoparent"	"1"
-			"paintborder"	"1"			
-			"border"		"MainMenuBGBorder"
+
+			"paintborder"	"1"
+			"border"		"EjpBorder2"
+			"bgcolor_override" "32 32 32 255"
 			
+
 			"OperationTitleLabel"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"OperationTitleLabel"
-				"font"			"HudFontSmallBold"
+				"font"			"NeouB20"
 				"labelText"		"#MMenu_Update"
-     			"textAlignment"	"west"
+				"textAlignment"	"west"
 				"xpos"			"0"
 				"ypos"			"0"
 				"wide"			"f0"
@@ -4342,20 +4348,18 @@
 					"command"		"view_update_page"
 					"actionsignallevel"	"4"
 			
-					"border_default"	"MainMenuButtonDefault"
-					"border_armed"		"MainMenuButtonArmed"
-					"paintbackground"	"0"
-			
-					"defaultFgColor_override" "46 43 42 255"
-					"armedFgColor_override" "235 226 202 255"
-					"depressedFgColor_override" "46 43 42 255"
-			
-					"image_drawcolor"	"117 107 94 255"
-					"image_armedcolor"	"235 226 202 255"
-
+					"defaultBgColor_override"	"32 32 32 255"
+					"armedBgColor_override"		"40 40 40 255"
+					"depressedBgColor_override"	"40 40 40 255"
+					"defaultFgColor_override"	"BasWhite"
+					"armedFgColor_override" 	"BasWhite"
+					"depressedFgColor_override" "BasWhite"
+					"border_default"			"EjpBorder"
+					"border_armed"				"EjpBorder2"
+					"paintbackground"			"1"
 				}
 			}
-
+			
 			"ViewComicButton"
 			{
 				"ControlName"	"EditablePanel"
@@ -4368,14 +4372,14 @@
 				"visible"		"1"
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
-			
+
 				"SubButton"
 				{
 					"ControlName"	"CExImageButton"
 					"fieldName"		"SubButton"
 					"xpos"			"cs-0.5"
 					"ypos"			"0"
-					"wide"			"200"
+					"wide"			"f0"
 					"tall"			"f0"
 					"autoResize"	"0"
 					"pinCorner"		"3"
@@ -4383,8 +4387,8 @@
 					"enabled"		"1"
 					"tabPosition"	"0"
 					"use_proportional_insets" "1"
-					"font"			"NeouB20"
-					"textAlignment"	"east"
+					"font"			"HudFontSmallBold"
+					"textAlignment"	"center"
 					"dulltext"		"0"
 					"brighttext"	"0"
 					"default"		"1"
@@ -4394,18 +4398,16 @@
 					"proportionaltoparent"	"1"
 					"command"		"view_update_comic"
 					"actionsignallevel"	"4"
-					
-					"paintborder"		"0"
-					"paintbackground"	"0"
 			
-					"defaultFgColor_override" "255 255 255 255"
-					"armedFgColor_override" "32 32 32 255"
-					"depressedFgColor_override" "32 32 32 255"
-					
-					"defaultBgColor_override" "0 0 0 0"
-					"armedBgColor_override" "0 0 0 0"
-					"depressedBgColor_override" "0 0 0 0"
-
+					"defaultBgColor_override"	"32 32 32 255"
+					"armedBgColor_override"		"40 40 40 255"
+					"depressedBgColor_override"	"40 40 40 255"
+					"defaultFgColor_override"	"BasWhite"
+					"armedFgColor_override" 	"BasWhite"
+					"depressedFgColor_override" "BasWhite"
+					"border_default"			"EjpBorder"
+					"border_armed"				"EjpBorder2"
+					"paintbackground"			"1"
 				}
 			}
 
@@ -4422,7 +4424,8 @@
 				"enabled"				"1"
 				"scaleImage"			"1"
 				"proportionaltoparent"	"1"
-				"bgcolor_override"		"0 0 0 255"
+
+				"bgcolor_override"		"32 32 32 255"
 
 				"items"
 				{
@@ -4489,6 +4492,7 @@
 					}
 				}
 			}
+
 		} // Background
 
 		"NewImage"
