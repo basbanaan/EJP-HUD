@@ -204,17 +204,21 @@
 		{
 			"ControlName"	"CScrollableQuestList"
 			"fieldName"		"QuestList"
-			"xpos"			"5"
-			"ypos"			"5"
+			"xpos"			"cs-0.5"
+			"ypos"			"p0.1"
 			"zpos"			"10"
-			"wide"			"290"
-			"tall"			"290"
+			"wide"			"p.95"
+			"tall"			"o1"
 			"visible"		"1"
 			"enabled"		"1"
 			"proportionaltoparent" "1"
 
 			"entry_step" "10"
 			"entry_y"	"10"
+
+			"no_quests"		"#QuestLog_NoQuests"
+			"need_a_pass"	"#QuestLog_NeedPassForContracts"
+			"not_possible"	"#QuestLog_NoContractsPossible"
 		}
 	}
 }

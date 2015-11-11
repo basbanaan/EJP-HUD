@@ -61,6 +61,11 @@ Scheme
 		"TFOrange"			"145 73 59 255"
 		
 		"QuestGold"			"208 147 75 255"
+		"HalloweenThemeColor2015_Light"	"238 126 17 255"
+		"HalloweenThemeColor2015"		"135 54 16 255"
+		"HalloweenThemeColor2015_Dark"	"108 49 21 255"
+		"QuestStandardHighlight"	"0 255 0 255"
+		"QuestBonusHighlight"		"150 160 255 255"
 		
 		"White"				"235 235 235 255"
 		"Red"				"192 28 0 140"
@@ -1488,6 +1493,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		// this is the symbol font
 		"Marlett"
 		{
@@ -2287,7 +2293,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"abeatbyKai"
+				"name"		"Gotham-Medium"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2298,7 +2304,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"abeatbyKai"
+				"name"		"Gotham-Medium"
 				"tall"		"9"
 				"weight"	"500"
 				"blur"		"3"
@@ -2311,7 +2317,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"abeatbyKai"
+				"name"		"Gotham-Medium"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -2323,7 +2329,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"abeatbyKai"
+				"name"		"Gotham-Medium"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -2334,7 +2340,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"abeatbyKai"
+				"name"		"Gotham-Medium"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -2344,7 +2350,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"abeatbyKai"
+				"name"		"Gotham-Medium"
 				"tall"		"7"
 				"weight"	"0"
 				"blur"		"3"
@@ -2357,7 +2363,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"abeatbyKai"
+				"name"		"Gotham-Medium"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -2367,7 +2373,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"abeatbyKai"
+				"name"		"Gotham-Medium"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2376,7 +2382,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"abeatbyKai"
+				"name"		"Gotham-Medium"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2385,7 +2391,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"abeatbyKai"
+				"name"		"Gotham-Medium"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2398,7 +2404,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"abeatbyKai"
+				"name"		"Gotham-Medium"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -2407,7 +2413,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"abeatbyKai"
+				"name"		"Gotham-Medium"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -2416,7 +2422,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"abeatbyKai"
+				"name"		"Gotham-Medium"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -2429,7 +2435,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"abeatbyKai"
+				"name"		"Gotham-Medium"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -2441,19 +2447,140 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"abeatbyKai"
+				"name"		"Gotham-Medium"
 				"tall"		"20"
 				"antialias" "1"
 				"custom"		"1" [$OSX]
 				"weight"	"500"
 			}
 		}
+		
+		"QuestInstructionText_Merasmus"
+		{
+			"1"
+			{
+				"name"		"Gotham-Medium"
+				"tall"		"10"
+				"weight"	"400"
+				"yres"		"480 599"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"Gotham-Medium"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"600 1023"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"Gotham-Medium"
+				"tall"		"22"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"1024 6000"
+				"antialias"	"1"
+			}
+		}
+
+		"QuestFlavorText_Merasmus"
+		{
+			"1"
+			{
+				"name"		"Gotham-Medium"
+				"tall"		"10"
+				"weight"	"400"
+				"yres"		"480 599"
+				"additive"	"0"
+				"antialias"	"1"
+				"italic"	"1"
+			}
+			"2"
+			{
+				"name"		"Gotham-Medium"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"600 1023"
+				"antialias"	"1"
+				"italic"	"1"
+			}
+			"3"
+			{
+				"name"		"Gotham-Medium"
+				"tall"		"22"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"1024 6000"
+				"antialias"	"1"
+				"italic"	"1"
+			}
+		}
+
+		"QuestObjectiveText_Merasmus"
+		{
+			"1"
+			{
+				"name"		"Gotham-Medium"
+				"tall"		"10"
+				"weight"	"800"
+				"yres"		"480 599"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"Gotham-Medium"
+				"tall"		"14"
+				"weight"	"800"
+				"additive"	"0"
+				"yres"		"600 1023"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"Gotham-Medium"
+				"tall"		"18"
+				"weight"	"800"
+				"additive"	"0"
+				"yres"		"1024 6000"
+				"antialias"	"1"
+			}
+		}
+
+		"QuestMediumText_Merasmus"
+		{
+			"1"
+			{
+				"name"		"Gotham-Medium"
+				"tall"		"13"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"QuestLargeText_Merasmus"
+		{
+			"1"
+			{
+				"name"		"Gotham-Medium"
+				"tall"		"16"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
 
 		"AdFont_ItemName"
 		{
 			"1"
 			{
-				"name"		"abeatbyKai"
+				"name"		"Gotham-Medium"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -2465,7 +2592,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"abeatbyKai"
+				"name"		"Gotham-Medium"
 				"tall"		"8"
 				"weight"	"400"
 				"additive"	"0"
@@ -2476,7 +2603,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"abeatbyKai"
+				"name"		"Gotham-Medium"
 				"tall"		"8"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -2491,7 +2618,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"abeatbyKai"
+				"name"		"Gotham-Medium"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2499,7 +2626,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"abeatbyKai"
+				"name"		"Gotham-Medium"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2507,7 +2634,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"abeatbyKai"
+				"name"		"Gotham-Medium"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2516,7 +2643,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"abeatbyKai"
+				"name"		"Gotham-Medium"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2525,7 +2652,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"abeatbyKai"
+				"name"		"Gotham-Medium"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2537,7 +2664,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Gotham-Medium"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2548,7 +2675,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Gotham-Medium"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2556,7 +2683,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Gotham-Medium"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2564,7 +2691,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Gotham-Medium"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2573,7 +2700,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Gotham-Medium"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2582,7 +2709,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Gotham-Medium"
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2591,7 +2718,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Arial"
+				"name"		"Gotham-Medium"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
@@ -2601,7 +2728,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Gotham-Medium"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2612,7 +2739,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Gotham-Medium"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2623,7 +2750,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Gotham-Medium"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -2636,7 +2763,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Gotham-Medium"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2647,7 +2774,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Gotham-Medium"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -2664,7 +2791,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Gotham-Medium"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2675,7 +2802,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Gotham-Medium"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2687,7 +2814,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Gotham-Medium"
 				"tall"		"15"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
