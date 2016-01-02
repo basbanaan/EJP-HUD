@@ -1710,4 +1710,8 @@
 		"collecting_player"	"byte"	// userid of the player who picked up the soul
 		"soul_count"		"byte"	// number of souls collected (gift boxes)
 	}
+ 
+ 	"recalculate_truce"
+ 	{
+ 	}
 }

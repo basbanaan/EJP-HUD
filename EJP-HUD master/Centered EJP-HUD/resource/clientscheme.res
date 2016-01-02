@@ -40,6 +40,7 @@ Scheme
 		"BasBlueSolid"		"0 200 225 255"
 		"BasBlueSolidTr"	"0 200 225 200"
 		"BasRedSolid"		"205 50 50 255"
+		"BasRedSolidTr"		"205 50 50 200"
 		"BasDark"			"32 32 32 255"
 		"BasGreenSolid"  	"90 180 0 255"
 		"BasDarker"		    "43 43 43 255"
@@ -533,6 +534,7 @@ Scheme
 	{
 		// UI buttons, custom font, (256x64)
 		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
+		"ButtonsSC"		"materials/vgui/fonts/buttons_sc.vbf"
 	}
 
 
@@ -1234,6 +1236,38 @@ Scheme
 				"scaley"	"0.4"
 			}
 		}
+		GameUIButtonsSteamController
+ 		{
+ 			"1"
+ 			{
+ 				"bitmap"	"1"
+ 				"name"		"ButtonsSC"
+ 				"scalex"	"0.5"
+ 				"scalex_lodef"		"0.75"
+ 				"scaley"	"0.5"
+ 				"scaley_lodef"		"0.75"
+ 			}
+ 		}
+ 		GameUIButtonsSteamControllerSmall
+ 		{
+ 			"1"
+ 			{
+ 				"bitmap"	"1"
+ 				"name"		"ButtonsSC"
+ 				"scalex"	"0.25"
+ 				"scaley"	"0.25"
+ 			}
+ 		}
+ 		GameUIButtonsSteamControllerSmallest
+ 		{
+ 			"1"
+ 			{
+ 				"bitmap"	"1"
+ 				"name"		"ButtonsSC"
+ 				"scalex"	"0.15"
+ 				"scaley"	"0.15"
+ 			}
+ 		}
 		"GameUIButtonText"
 		{
 			"1"
