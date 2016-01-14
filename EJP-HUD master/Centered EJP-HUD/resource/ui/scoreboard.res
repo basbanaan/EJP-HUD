@@ -13,16 +13,18 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"medal_width"		"0"
-		"avatar_width"		"55"	 
-		"name_width"		"50"	 
-		"status_width"		"15"	 
-		"nemesis_width"		"15"	 
-		"class_width"		"15"	 
-		"score_width"		"30"
-		"ping_width"		"23"	
-		"stats_width"		"30"
-		"killstreak_width"	"20" 
+		"avatar_width"		"54"
+		"medal_width"		"14"		
+		"name_width"		"0"
+		"name_width_short"	"65"
+		"spacer"			"5"
+		"status_width"		"15"	
+		"nemesis_width"		"15"	
+		"class_width"		"20"	
+		"score_width"		"20"
+		"ping_width"		"20"	
+		"killstreak_width"	"15"
+		"killstreak_image_width" "15"
 	}
 	"BlueScoreBG"
 	{
@@ -617,7 +619,29 @@
 		{
 			"visible"		"1"
 		}
-	}		
+	}	
+	"ServerLabelNew"
+ 	{
+ 		"ControlName"		"CExLabel"
+ 		"fieldName"		"ServerLabelNew"
+ 		"font"			"NeouB14"
+ 		"labelText"		"%server%"
+ 		"textAlignment"		"east"
+ 		"xpos"			"415"
+ 		"ypos"			"375"
+ 		"zpos"			"3"
+ 		"wide"			"165"
+ 		"tall"			"12"
+ 		"autoResize"	"0"
+ 		"pinCorner"		"0"
+ 		"visible"		"0"
+ 		"enabled"		"0"
+ 		
+ 		if_mvm
+ 		{
+ 			"visible"		"0"
+ 		}
+ 	}	
 	"MapName"
 	{
 		"ControlName"	"CExLabel"
